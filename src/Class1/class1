@@ -1,0 +1,41 @@
+-Introduction to Java
+- Feature of Java
+-History Of java
+-Java Programming environment
+    *JDK
+    *JRE
+
+-Fundamental Programming Structure of Java
+    import java.io.x ------> import statement
+    class A          ------> class name
+    {
+        int i, b;    variable(instance var, class var, local var, private var)
+
+        psvm
+    }
+
+
+-Data Types
+    1. int
+    2. float
+    3. long
+    4. double
+
+
+
+-Access Conrtol Modifier
+    1. Public -visible to all world
+    2. Private -visible to the class only
+    3. Protected -visible to the package and all subclasses
+    4. Default -visible to package
+
+
+- Non Access Modifier
+    1. Static
+    2. Final (if used in
+                  variable-> constant
+                  method -> override not possible for that method
+                  class -> inheritance
+                  )
+    3. Abstract
+    4. Synchronized & volatile (Both are used in method for preventation of deadlock
