@@ -1,8 +1,18 @@
 package Class4;
 
 /**
- * Created by a-19-k on 2/7/19.
+ * Created by a-19-k on 2/27/19.
  */
-public class AbstractClass
-{
+
+abstract class AbstractClass {
+    abstract void draw();
+}
+class Rectangle extends AbstractClass{
+    void draw(){System.out.println("drawing rectangle");}
+}
+class TestAbstraction1{
+    public static void main(String args[]){
+        AbstractClass s=new Rectangle();
+        s.draw();
+    }
 }
