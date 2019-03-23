@@ -4,19 +4,22 @@ import java.io.File;
 import java.io.IOException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
+/*
 
 import static java.lang.System.in;
 
+*/
 /**
  * Created by a-19-k on 2/18/19.
- */
+ *//*
+
 public class FileHandlingExample  {
     public static void main(String args[]) {
         try {
             File file = new File("filedemoexample.txt");
             if (file.exists()){
 //
-                System.out.println("File \"" + file.getName() + "\" already exists in \"" + file.getAbsolutePath() "\" directory.");
+                System.out.println("File \"" + file.getName() + "\" already exists in \"" + file.getAbsolutePath()"\" directory.");
                 System.out.println("File details: ");
                 System.out.println("Can be read: " + file.canRead());
                 System.out.println("Can be written:"+file.canWrite());
@@ -34,3 +37,4 @@ public class FileHandlingExample  {
         }
     }
 }
+*/

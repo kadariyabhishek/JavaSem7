@@ -4,6 +4,7 @@ import java.sql.ResultSet;
 import java.sql.Statement;
 
 /*
+
 class Test{
 
     public static void main(String[] args) {
@@ -22,4 +23,5 @@ class Test{
 
     private static void forName() {
     }
-}*/
+}
+*/
